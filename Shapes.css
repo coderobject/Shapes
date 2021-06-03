@@ -1,0 +1,68 @@
+
+
+/*Showcase*/
+
+#grand{
+    position:relative;
+}
+
+
+#triangle{
+    border:1em solid transparent;
+    border-right-color:violet;
+    border:3em solid transparent;
+    border-left-color: tomato;
+    left:100px;
+    left:60px;
+    position:relative;
+    
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(90deg);
+      }
+    }
+
+
+
+#letter{
+    border-width: 50px;
+    border-style:solid;
+    border-left-color: violet;
+    border-right-color: wheat;
+    border-top-color: yellow;
+    border-bottom-color: tomato;
+    width:50px;
+    
+}
+
+
+#lettertwo{
+    margin-top:20px;
+    border:1em solid blue;
+    border-top-color:violet;
+    width:10px;
+}
+
+#letterthree{
+    margin-top:20px;
+    border:1em solid blue;
+    border-top-color:violet;
+    height:30px;
+    width:0px;
+}
+
+#trytriangle {
+    border: 50px solid;
+    border-top-color:turquoise;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    width:0px;
+    height:0px;
+
+}
